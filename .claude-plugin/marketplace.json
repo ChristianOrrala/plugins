@@ -1,0 +1,25 @@
+{
+  "name": "christian-orrala",
+  "owner": {
+    "name": "Christian Orrala"
+  },
+  "description": "Two products for coding agents: the A-files, five files every agent reads first, and stack-neutral skills for spec-driven development with use cases.",
+  "plugins": [
+    {
+      "name": "a-files",
+      "source": {
+        "source": "github",
+        "repo": "ChristianOrrala/a-files"
+      },
+      "description": "The A-files: five files every coding agent reads first, with the skill that adopts and keeps them, their check and its git hook."
+    },
+    {
+      "name": "upspec",
+      "source": {
+        "source": "github",
+        "repo": "ChristianOrrala/upspec"
+      },
+      "description": "Fourteen skills for specification-first development with use cases: requirements, entity model, use cases, review, implementation, tests, change, coverage, recovery and scaling."
+    }
+  ]
+}

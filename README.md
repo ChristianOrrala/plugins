@@ -1,13 +1,16 @@
 # Christian Orrala's plugins
 
-Plugins for coding agents, any category, each in its own repository.
+A plugin marketplace for coding agents. Each plugin lives in its own
+repository; this one lists them so you can install them by name.
 
 | Plugin | What it does | Repository |
 |---|---|---|
-| `upspec` | Fourteen skills for specification-first development with use cases | [ChristianOrrala/upspec](https://github.com/ChristianOrrala/upspec) |
-| `a-files` | Five files every coding agent reads first, with their skill, check and hook | [ChristianOrrala/a-files](https://github.com/ChristianOrrala/a-files) |
+| `upspec` | Fourteen skills for specification-first development with use cases, for any stack | [ChristianOrrala/upspec](https://github.com/ChristianOrrala/upspec) |
+| `a-files` | Five files every coding agent reads first, with the skill that keeps them, their check and a git hook | [ChristianOrrala/a-files](https://github.com/ChristianOrrala/a-files) |
 
 ## Install
+
+Add the marketplace once, then install the plugins you want.
 
 Claude Code:
 
@@ -25,7 +28,12 @@ codex plugin add upspec@christian-orrala
 codex plugin add a-files@christian-orrala
 ```
 
-Each plugin works alone; together they share one project.
+## Using them together
+
+Each plugin works alone. In one project they work together: the A-files
+track the work, and each ability in `ABILITIES.md` links to the upspec use
+cases that specify it.
+Each plugin's README explains how to start.
 
 ## License
 

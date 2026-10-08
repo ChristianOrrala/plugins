@@ -19,7 +19,7 @@
         "source": "github",
         "repo": "ChristianOrrala/upspec"
       },
-      "description": "Fourteen skills for specification-first development with use cases: requirements, entity model, use cases, review, implementation, tests, change, coverage, recovery and scaling."
+      "description": "Fifteen skills for specification-first development with use cases: requirements, entity model, use cases, review, implementation, tests, change, coverage, recovery, scaling and specification format migration."
     }
   ]
 }

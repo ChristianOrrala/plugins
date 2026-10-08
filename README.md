@@ -5,7 +5,7 @@ repository; this one lists them so you can install them by name.
 
 | Plugin | What it does | Repository |
 |---|---|---|
-| `upspec` | Fourteen skills for specification-first development with use cases, for any stack | [ChristianOrrala/upspec](https://github.com/ChristianOrrala/upspec) |
+| `upspec` | Fifteen skills for specification-first development with use cases, for any stack | [ChristianOrrala/upspec](https://github.com/ChristianOrrala/upspec) |
 | `a-files` | Five files every coding agent reads first, with the skill that keeps them, their check and a git hook | [ChristianOrrala/a-files](https://github.com/ChristianOrrala/a-files) |
 
 ## Install
